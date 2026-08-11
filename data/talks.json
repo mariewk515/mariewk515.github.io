@@ -1,14 +1,22 @@
 [
   {
-    "title": "A very important finding about an interesting phenomenon",
-    "location": "Workshop on Interesting Things, University of Somewhere",
-    "date": "2026",
-    "link": "https://example.edu"
+    "title": "Racialized Language in Criminal Courtrooms",
+    "location": "Law and Society Association Annual Conference",
+    "date": "May 2026"
   },
   {
-    "title": "An earlier study that laid the groundwork",
-    "location": "Conference on Groundwork",
-    "date": "2024",
-    "link": "https://example.edu"
+    "title": "How Judicial Gender Composition Affects Sentencing Decisions: Evidence from Japanese Criminal Courts",
+    "location": "19th Annual Conference on Empirical Legal Studies (CELS)",
+    "date": "October 2025"
+  },
+  {
+    "title": "Female Voice in the Courtroom: Effects of the Participation of Female Judges in Japanese Criminal Cases",
+    "location": "Trans-Altai Sustainability Dialogue, Gender Equality — co-hosted by the Parliament of Mongolia, Stanford APARC, and the Ban Ki-moon Foundation For a Better Future",
+    "date": "July 2023"
+  },
+  {
+    "title": "Effectiveness of Labor Provisions in Trade Agreements",
+    "location": "Salzburg Cutler Fellows Program",
+    "date": "February 2023"
   }
 ]

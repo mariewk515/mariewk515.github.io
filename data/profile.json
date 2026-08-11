@@ -1,16 +1,14 @@
 {
-  "name": "Dr. Jane Placeholder",
-  "title": "Assistant Professor of Something Interesting",
-  "affiliation": "University of Somewhere",
-  "photoPath": "./assets/images/headshot.svg",
+  "name": "Marie Wako",
+  "title": "JSD Candidate",
+  "affiliation": "Stanford Law School",
+  "photoPath": "./assets/images/headshot-marie.jpg",
   "bio": [
-    "I am a researcher studying interesting things. My work combines methods from one field with questions from another to understand how the world works.",
-    "Before joining the University of Somewhere, I completed my Ph.D. at Another University, where I was advised by Prof. Great Mentor."
+    "Marie Wako is a JSD candidate at Stanford Law School, where her research uses empirical methods to study race, gender, and criminal law — including the effect of judicial gender composition on sentencing outcomes in Japanese criminal courts, and racialized language in U.S. criminal courtrooms. Her broader interests include criminal procedure, evidence, international law, and natural language processing methods for legal research.",
+    "Before her doctoral studies, Marie practiced law in Tokyo, advising government agencies and private companies on public international law, international trade law, export controls, and economic sanctions. She holds an LL.M. from Stanford Law School, where she was a Fulbright Scholar, and a J.D. (cum laude) and LL.B. from the University of Tokyo. She is admitted to the New York and Japanese bars."
   ],
   "links": [
-    { "label": "Google Scholar", "url": "https://scholar.google.com/" },
-    { "label": "GitHub", "url": "https://github.com/" },
-    { "label": "CV", "url": "./docs/cv.pdf" },
-    { "label": "Email", "url": "mailto:jane@example.edu" }
+    { "label": "Email", "url": "mailto:mariewk@stanford.edu" },
+    { "label": "CV", "url": "./docs/cv.pdf" }
   ]
 }

@@ -1,15 +1,5 @@
-/** Renders data/profile.json into the About section, nav, title, and footer. */
+/** Renders data/profile.json into the About section. Title/nav/footer are set by js/chrome.js. */
 Site.load("./data/profile.json", "profile-container", (container, profile) => {
-  if (profile.name) {
-    document.title = profile.name;
-    const navName = document.getElementById("nav-name");
-    if (navName) navName.textContent = profile.name;
-    const footer = document.getElementById("footer-text");
-    if (footer) {
-      footer.textContent = `© ${new Date().getFullYear()} ${profile.name}`;
-    }
-  }
-
   const wrapper = Site.el("div", "profile");
 
   if (profile.photoPath) {

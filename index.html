@@ -6,6 +6,9 @@
   <!-- The page title is also set from data/profile.json at load time -->
   <title>Academic Website</title>
   <meta name="description" content="Personal academic website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
@@ -16,12 +19,10 @@
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#news">News</a></li>
-        <li><a href="#publications">Publications</a></li>
+        <li><a href="#fellowships">Fellowships</a></li>
         <li><a href="#working-papers">Working Papers</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#talks">Talks</a></li>
-        <li><a href="#software">Software</a></li>
-        <li><a href="#teaching">Teaching</a></li>
       </ul>
     </nav>
   </header>
@@ -40,9 +41,9 @@
       <div id="news-container"></div>
     </section>
 
-    <section id="publications" class="section" hidden>
-      <h2>Publications</h2>
-      <div id="publications-container"></div>
+    <section id="fellowships" class="section" hidden>
+      <h2>Fellowships &amp; Awards</h2>
+      <div id="fellowships-container"></div>
     </section>
 
     <section id="working-papers" class="section" hidden>
@@ -59,16 +60,6 @@
       <h2>Talks</h2>
       <div id="talks-container"></div>
     </section>
-
-    <section id="software" class="section" hidden>
-      <h2>Software</h2>
-      <div id="software-container"></div>
-    </section>
-
-    <section id="teaching" class="section" hidden>
-      <h2>Teaching</h2>
-      <div id="teaching-container"></div>
-    </section>
   </main>
 
   <footer class="site-footer">
@@ -76,13 +67,12 @@
   </footer>
 
   <script src="./js/utils.js"></script>
+  <script src="./js/chrome.js"></script>
   <script src="./js/profile.js"></script>
   <script src="./js/news.js"></script>
-  <script src="./js/publications.js"></script>
+  <script src="./js/fellowships.js"></script>
   <script src="./js/working_papers.js"></script>
   <script src="./js/ongoing_projects.js"></script>
   <script src="./js/talks.js"></script>
-  <script src="./js/software.js"></script>
-  <script src="./js/teaching.js"></script>
 </body>
 </html>

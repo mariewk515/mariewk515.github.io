@@ -3,12 +3,8 @@
     "year": "2026",
     "items": [
       {
-        "type": "Preprint",
-        "htmltext": "New preprint: <a href='https://doi.org/10.48550/arXiv.0000.00000' target='_blank'>A new preprint that is currently under review</a>."
-      },
-      {
         "type": "Talk",
-        "htmltext": "Gave an invited talk at the <a href='https://example.edu' target='_blank'>Workshop on Interesting Things</a>."
+        "htmltext": "Presenting “Racialized Language in Criminal Courtrooms” at the Law and Society Association Annual Conference (May 2026)."
       }
     ]
   },
@@ -16,8 +12,51 @@
     "year": "2025",
     "items": [
       {
-        "type": "Publication",
-        "htmltext": "Our paper <a href='https://doi.org/10.0000/example.2025' target='_blank'>A very important finding about an interesting phenomenon</a> was published in <em>Journal of Important Findings</em>."
+        "type": "Talk",
+        "htmltext": "Presented “How Judicial Gender Composition Affects Sentencing Decisions: Evidence from Japanese Criminal Courts” at the 19th Annual Conference on Empirical Legal Studies (CELS)."
+      },
+      {
+        "type": "Research",
+        "htmltext": "Began work as a Research Assistant on the Larry P. v. Riles Project with Prof. Alfredo Artiles and Prof. Bill Koski."
+      }
+    ]
+  },
+  {
+    "year": "2024",
+    "items": [
+      {
+        "type": "Fellowship",
+        "htmltext": "Named Pre-doctoral Fellow at the Walter H. Shorenstein Asia-Pacific Research Center (APARC), Freeman Spogli Institute, Stanford."
+      },
+      {
+        "type": "Fellowship",
+        "htmltext": "Named Digital Humanities Research Scholar at the Center for Spatial and Textual Analysis (CESTA), Stanford."
+      }
+    ]
+  },
+  {
+    "year": "2023",
+    "items": [
+      {
+        "type": "Talk",
+        "htmltext": "Presented “Female Voice in the Courtroom” at the Trans-Altai Sustainability Dialogue, Gender Equality, co-hosted by the Parliament of Mongolia, Stanford APARC, and the Ban Ki-moon Foundation For a Better Future."
+      },
+      {
+        "type": "Talk",
+        "htmltext": "Presented at the Salzburg Cutler Fellows Program on the effectiveness of labor provisions in trade agreements."
+      }
+    ]
+  },
+  {
+    "year": "2022",
+    "items": [
+      {
+        "type": "Milestone",
+        "htmltext": "Began the JSD program at Stanford Law School."
+      },
+      {
+        "type": "Bar",
+        "htmltext": "Admitted to the New York Bar."
       }
     ]
   }

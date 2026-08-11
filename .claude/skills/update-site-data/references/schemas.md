@@ -108,6 +108,21 @@ Array, newest first. Rendered by `js/talks.js`.
 - `date` is a year string (a fuller date like `"March 2026"` also works).
 - Optional: `link` (title renders as plain text without it).
 
+## data/fellowships.json — fellowships, scholarships, grants, and awards
+
+Array, newest first. Rendered by `js/fellowships.js`.
+
+```json
+{
+  "title": "APARC Pre-doctoral Fellowship",
+  "organization": "Walter H. Shorenstein Asia-Pacific Research Center, Stanford University",
+  "date": "2024–2025",
+  "description": "Optional one-line note about the award."
+}
+```
+
+- Optional: `date`, `description` (an entry needs at least `title`; `organization`/`date` render together as one meta line).
+
 ## data/software.json — software and tools
 
 Array. Rendered by `js/software.js`.

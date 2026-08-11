@@ -1,10 +1,14 @@
 [
   {
-    "title": "A large ongoing research project",
-    "description": "A multi-year effort to understand an important phenomenon using new data sources and methods."
+    "title": "Racialized Language in Criminal Courtrooms",
+    "description": "An empirical study of racialized language patterns in U.S. criminal courtrooms and their relationship to case outcomes."
   },
   {
-    "title": "A second project in early stages",
-    "description": "An exploratory collaboration investigating a promising new direction."
+    "title": "Judicial Gender Composition and Sentencing in Japanese Criminal Courts",
+    "description": "A statistical analysis of roughly 620 Japanese criminal cases examining how the gender composition of judicial panels affects sentencing severity, with a focus on sexual offense cases."
+  },
+  {
+    "title": "Larry P. v. Riles Project",
+    "description": "Research assistant to Prof. Alfredo Artiles and Prof. Bill Koski on the landmark special education case Larry P. v. Riles."
   }
 ]
