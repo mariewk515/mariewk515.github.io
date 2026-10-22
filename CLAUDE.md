@@ -11,9 +11,10 @@ A JSON-driven personal academic website: vanilla HTML/CSS/JS, no build step, dep
 | About/profile | `data/profile.json` | `js/profile.js` |
 | News | `data/news.json` | `js/news.js` |
 | Fellowships & Awards | `data/fellowships.json` | `js/fellowships.js` |
-| Working papers | `data/working_papers.json` | `js/working_papers.js` |
-| Ongoing projects | `data/ongoing_projects.json` | `js/ongoing_projects.js` |
+| Working papers (shared "Working Papers & Projects" section) | `data/working_papers.json` | `js/working_papers.js` |
+| Ongoing projects (same section) | `data/ongoing_projects.json` | `js/ongoing_projects.js` |
 | Talks | `data/talks.json` | `js/talks.js` |
+| Contact | `data/contact.json` | `js/contact.js` |
 
 Publications, Software, and Teaching are not wired into `index.html` or the nav (kept out of scope for this site), but their `data/*.json` files and `js/*.js` renderers remain in the repo — harmless and ready to reintroduce if needed later.
 

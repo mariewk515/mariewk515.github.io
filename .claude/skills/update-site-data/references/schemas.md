@@ -50,7 +50,7 @@ Array, ordered by year (newest first). Rendered by `js/publications.js`.
 
 ## data/working_papers.json — preprints / under review
 
-Array, newest first. Rendered by `js/working_papers.js`.
+Array, newest first. Rendered by `js/working_papers.js` into the shared "Working Papers & Projects" section (with `ongoing_projects.json`).
 
 ```json
 {
@@ -106,7 +106,7 @@ Array, newest first. Rendered by `js/talks.js`.
 ```
 
 - `date` is a year string (a fuller date like `"March 2026"` also works).
-- Optional: `link` (title renders as plain text without it).
+- Optional: `link` (title renders as plain text without it), `slidePath` (e.g. `./assets/talks/2026_Event_slide.png`; adds a "Slide" link).
 
 ## data/fellowships.json — fellowships, scholarships, grants, and awards
 
@@ -145,6 +145,20 @@ Array. Rendered by `js/ongoing_projects.js`.
   "description": "A multi-year effort to understand an important phenomenon."
 }
 ```
+
+## data/contact.json — contact details
+
+Object. Rendered by `js/contact.js`.
+
+```json
+{
+  "email": "jane@example.edu",
+  "address": ["Department of Something", "University of Somewhere"],
+  "note": "Optional one-line note."
+}
+```
+
+- Optional: `address` (array of lines), `note`.
 
 ## data/teaching.json — courses taught
 
