@@ -11,7 +11,7 @@
   --color-accent: #1f4e79;
   --color-bg: #ffffff;
   --color-border: #dddddd;
-  --max-width: 44rem;
+  --max-width: 54rem;
   --font-serif: "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif;
 }
 
@@ -149,19 +149,26 @@ main {
 
 /* --- Profile ------------------------------------------------------------ */
 
-.profile::after {
-  content: "";
-  display: block;
-  clear: both;
+/* Photo in its own left column; the bio is a separate block that never
+   wraps under the photo. Stacks (photo on top) on narrow screens. */
+.profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
 }
 
 .profile-photo {
-  float: right;
-  width: 190px;
-  height: 190px;
+  flex: 0 0 200px;
+  width: 200px;
+  height: 250px;
   object-fit: cover;
-  border-radius: 50%;
-  margin: 0 0 1rem 1.75rem;
+  object-position: center 25%;
+  border-radius: 3px;
+}
+
+.profile-body {
+  flex: 1;
+  min-width: 0;
 }
 
 /* The name is already the page header, so the About heading is kept for
@@ -199,13 +206,17 @@ main {
   margin: 0 0.45rem;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 640px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+  }
+
   .profile-photo {
-    float: none;
-    display: block;
-    margin: 0 auto 1.25rem;
-    width: 160px;
-    height: 160px;
+    flex-basis: auto;
+    width: 170px;
+    height: 212px;
   }
 }
 
