@@ -106,7 +106,7 @@ Array, newest first. Rendered by `js/talks.js`.
 ```
 
 - `date` is a year string (a fuller date like `"March 2026"` also works).
-- Optional: `link` (title renders as plain text without it), `slidePath` (e.g. `./assets/talks/2026_Event_slide.png`; adds a "Slide" link).
+- Optional: `link` (title renders as plain text without it), `slidePath` (e.g. `./assets/talks/2026_Event_slide.png`; adds a "Slide" link) or `slides` (array of `{ "label": "Slide 1", "path": "./assets/talks/..." }`, one link each).
 
 ## data/fellowships.json — fellowships, scholarships, grants, and awards
 
