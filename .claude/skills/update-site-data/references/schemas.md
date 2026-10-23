@@ -152,12 +152,13 @@ Object. Rendered by `js/contact.js`.
 
 ```json
 {
-  "email": "jane@example.edu",
+  "email": "jane[@]example.edu",
   "address": ["Department of Something", "University of Somewhere"],
   "note": "Optional one-line note."
 }
 ```
 
+- `email` is written spam-safe (`[@]`) and shown as plain text, never as a `mailto:` link.
 - Optional: `address` (array of lines), `note`.
 
 ## data/teaching.json — courses taught

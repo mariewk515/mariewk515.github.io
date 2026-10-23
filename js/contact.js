@@ -1,12 +1,11 @@
-/** Renders data/contact.json (object: email, optional address lines and note). */
+/**
+ * Renders data/contact.json (object: email, optional address lines and note).
+ * The email is stored and shown spam-safe (e.g. "name[@]example.edu") as plain
+ * text, with no mailto: link, so scrapers can't harvest it.
+ */
 Site.load("./data/contact.json", "contact-container", (container, contact) => {
   if (contact.email) {
-    const p = Site.el("p", "contact-line", "Email: ");
-    const a = document.createElement("a");
-    a.href = `mailto:${contact.email}`;
-    a.textContent = contact.email;
-    p.appendChild(a);
-    container.appendChild(p);
+    container.appendChild(Site.el("p", "contact-line", `Email: ${contact.email}`));
   }
   if (contact.address && contact.address.length) {
     const p = Site.el("p", "contact-line");

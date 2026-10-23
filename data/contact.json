@@ -1,4 +1,7 @@
 {
-  "email": "mariewk@stanford.edu",
-  "address": ["Stanford Law School", "Stanford, CA"]
+  "email": "mariewk[@]stanford.edu",
+  "address": [
+    "Stanford Law School",
+    "Stanford, CA"
+  ]
 }

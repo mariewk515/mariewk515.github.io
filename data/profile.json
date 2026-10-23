@@ -8,7 +8,9 @@
     "Before her doctoral studies, Marie practiced law in Tokyo, advising government agencies and private companies on public international law, international trade law, export controls, and economic sanctions. She holds an LL.M. from Stanford Law School, where she was a Fulbright Scholar, and a J.D. (cum laude) and LL.B. from the University of Tokyo. She is admitted to the New York and Japanese bars."
   ],
   "links": [
-    { "label": "Email", "url": "mailto:mariewk@stanford.edu" },
-    { "label": "CV", "url": "./docs/cv.pdf" }
+    {
+      "label": "CV",
+      "url": "./docs/cv.pdf"
+    }
   ]
 }
