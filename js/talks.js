@@ -9,12 +9,23 @@ Site.load("./data/talks.json", "talks-container", (container, talks) => {
 
     const meta = [location, date].filter(Boolean).join(" — ");
     if (meta) item.appendChild(Site.el("p", "item-meta", meta));
-    // `slides` (array of {label, path}) lists several slides; `slidePath` is the single-slide shorthand.
+    // `slides` (array of {label, path}) shows a row of clickable thumbnails, each opening the full-size image;
+    // `slidePath` is the single-slide shorthand.
     const slideList = slides || (slidePath ? [{ label: "Slide", path: slidePath }] : []);
     if (slideList.length) {
-      const links = Site.el("p", "paper-links");
-      slideList.forEach(({ label, path }) => links.appendChild(Site.link(path, label)));
-      item.appendChild(links);
+      const row = Site.el("div", "slide-thumbs");
+      slideList.forEach(({ label, path }) => {
+        const a = Site.link(path, "");
+        a.className = "slide-thumb";
+        const img = document.createElement("img");
+        img.src = path;
+        img.alt = label;
+        img.loading = "lazy";
+        a.appendChild(img);
+        a.appendChild(Site.el("span", null, label));
+        row.appendChild(a);
+      });
+      item.appendChild(row);
     }
     container.appendChild(item);
   });
